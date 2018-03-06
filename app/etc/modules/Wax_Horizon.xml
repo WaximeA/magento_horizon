@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Wax_Horizon>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Wax_Horizon>
+    </modules>
+</config>
