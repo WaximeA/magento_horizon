@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Wax_Horizon>
+            <version>1.0.0</version>
+        </Wax_Horizon>
+    </modules>
+    <global>
+        <blocks>
+            <wax_horizon>
+                <class>Wax_Horizon_Block</class>
+            </wax_horizon>
+        </blocks>
+        <helpers>
+            <wax_horizon>
+                <class>Wax_Horizon_Helper</class>
+            </wax_horizon>
+        </helpers>
+    </global>
+    <frontend>
+        <translate>
+            <modules>
+                <Wax_Horizon>
+                    <files>
+                        <default>Wax_Horizon.csv</default>
+                    </files>
+                </Wax_Horizon>
+            </modules>
+        </translate>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Wax_Horizon>
+                    <files>
+                        <default>Wax_Horizon.csv</default>
+                    </files>
+                </Wax_Horizon>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>
