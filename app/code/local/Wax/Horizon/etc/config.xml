@@ -40,4 +40,12 @@
             </modules>
         </translate>
     </adminhtml>
+    <default>
+        <wax_horizon>
+            <message>
+                <display_message>1</display_message>
+                <message_content>You can change this message in System > Configuration > Wax - Horizon > Messages.</message_content>
+            </message>
+        </wax_horizon>
+    </default>
 </config>
