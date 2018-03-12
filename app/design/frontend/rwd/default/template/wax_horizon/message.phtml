@@ -1,0 +1,8 @@
+<?php /** @var string $messageContent */ ?>
+<?php $messageContent = Mage::getStoreConfig('wax_horizon/message/message_content'); ?>
+<?php /** @var bool $displayMessage */ ?>
+<?php $displayMessage = Mage::getStoreConfigFlag('wax_horizon/message/display_message'); ?>
+
+<?php if($displayMessage): ?>
+    <p><?php echo $messageContent; ?></p>
+<?php endif; ?>
