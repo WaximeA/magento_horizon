@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="header">
+            <block type="wax_horizon/message" name="wax_horizon_message" template="wax_horizon/message.phtml"/>
+        </reference>
+        <reference name="footer">
+            <block type="wax_horizon/copyright" name="wax_horizon_copyright" template="wax_horizon/copyright.phtml"/>
+        </reference>
+    </default>
+</layout>
