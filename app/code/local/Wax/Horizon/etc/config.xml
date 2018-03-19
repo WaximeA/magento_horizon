@@ -28,6 +28,13 @@
                 </args>
             </waxhorizonroute>
         </routers>
+        <layout>
+            <updates>
+                <wax_horizon>
+                    <file>wax_horizon/wax_horizon.xml</file>
+                </wax_horizon>
+            </updates>
+        </layout>
         <translate>
             <modules>
                 <Wax_Horizon>
