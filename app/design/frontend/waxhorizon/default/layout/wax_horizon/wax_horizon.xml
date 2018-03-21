@@ -4,6 +4,13 @@
         <reference name="header">
             <block type="wax_horizon/message" name="wax_horizon_message" template="wax_horizon/message.phtml"/>
         </reference>
+        <reference name="content">
+            <block type="cms/block" name="test">
+                <action method="setBlockId">
+                    <block_id>test</block_id>
+                </action>
+            </block>
+        </reference>
         <reference name="footer">
             <block type="wax_horizon/copyright" name="wax_horizon_copyright" template="wax_horizon/copyright.phtml"/>
         </reference>
