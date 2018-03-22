@@ -19,6 +19,22 @@
         </helpers>
     </global>
     <frontend>
+        <routers>
+            <waxhorizonroute>
+                <use>standard</use>
+                <args>
+                    <module>Wax_Horizon</module>
+                    <frontName>horizon</frontName>
+                </args>
+            </waxhorizonroute>
+        </routers>
+        <layout>
+            <updates>
+                <wax_horizon>
+                    <file>wax_horizon/wax_horizon.xml</file>
+                </wax_horizon>
+            </updates>
+        </layout>
         <translate>
             <modules>
                 <Wax_Horizon>
