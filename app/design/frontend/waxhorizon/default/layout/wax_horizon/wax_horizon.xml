@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>wax_accordion/js/accordion.js</name>
+            </action>
+        </reference>
         <reference name="header">
             <block type="wax_horizon/message" name="wax_horizon_message" template="wax_horizon/message.phtml"/>
         </reference>

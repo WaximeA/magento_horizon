@@ -12,7 +12,7 @@ class Wax_Horizon_IndexController extends Mage_Checkout_Controller_Action
     {
         $this->loadLayout();
         $block = $this->getLayout()->createBlock('wax_horizon/accordion')->setTemplate('wax_horizon/accordion.phtml');
-        $this->getResponse()->setBody($block->toHtml());
+        $this->getLayout()->getBlock('content')->append($block);
         $this->renderLayout();
     }
 }
