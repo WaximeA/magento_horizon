@@ -13,4 +13,26 @@
             </wax_design>
         </helpers>
     </global>
+    <frontend>
+        <translate>
+            <modules>
+                <Wax_Design>
+                    <files>
+                        <default>Wax_Design.csv</default>
+                    </files>
+                </Wax_Design>
+            </modules>
+        </translate>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Wax_Design>
+                    <files>
+                        <default>Wax_Design.csv</default>
+                    </files>
+                </Wax_Design>
+            </modules>
+        </translate>
+    </adminhtml>
 </config>
