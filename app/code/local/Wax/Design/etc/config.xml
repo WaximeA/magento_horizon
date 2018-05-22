@@ -7,6 +7,11 @@
         </Wax_Design>
     </modules>
     <global>
+        <blocks>
+            <wax_design>
+                <class>Wax_Design_Block</class>
+            </wax_design>
+        </blocks>
         <helpers>
             <wax_design>
                 <class>Wax_Design_Helper</class>

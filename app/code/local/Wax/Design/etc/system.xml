@@ -26,7 +26,7 @@
                     <fields>
                         <version translate="label">
                             <label>Extension Version</label>
-                            <frontend_type>textarea</frontend_type>
+                            <frontend_model>wax_horizon/adminhtml_system_config_version</frontend_model>
                             <sort_order>10</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>0</show_in_website>
