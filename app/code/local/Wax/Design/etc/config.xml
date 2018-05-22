@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Wax_Design>
+            <version>1.0.0</version>
+        </Wax_Design>
+    </modules>
+    <global>
+        <helpers>
+            <wax_design>
+                <class>Wax_Design_Helper</class>
+            </wax_design>
+        </helpers>
+    </global>
+</config>

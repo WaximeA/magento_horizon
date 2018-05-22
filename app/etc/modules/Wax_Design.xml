@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Wax_Design>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Wax_Design>
+    </modules>
+</config>
