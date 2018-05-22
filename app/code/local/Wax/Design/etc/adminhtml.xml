@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<config>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <waxhorizon translate="title" module="wax_design">
+                                        <title>Wax Extension</title>
+                                    </waxhorizon>
+                                </children>
+                                <children>
+                                    <wax_design>
+                                        <title>Wax_Design - General</title>
+                                    </wax_design>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
