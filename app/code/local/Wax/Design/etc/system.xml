@@ -34,6 +34,25 @@
                         </version>
                     </fields>
                 </general>
+                <custom-fields translate="label">
+                    <label>Custom fields</label>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <additionnal_logo>
+                            <label>Additional logo</label>
+                            <frontend_type>file</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_file</backend_model>
+                            <upload_dir config="system/filesystem/media">wax_design_logo</upload_dir>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </additionnal_logo>
+                    </fields>
+                </custom-fields>
             </groups>
         </wax_design>
     </sections>
