@@ -28,6 +28,11 @@
  */
 ?>
 
+<?php /** @var Wax_Design_Helper_Data $helperWaxDesign */ ?>
+<?php $helperWaxDesign = Mage::helper('wax_design'); ?>
+<?php /** @var string $checkoutHeaderLogoName */ ?>
+<?php $additionalLogoFileName = $helperWaxDesign->getAdditionalLogoFileName(); ?>
+
 <div class="header-language-background">
     <div class="header-language-container">
         <div class="store-language-container">
@@ -44,8 +49,13 @@
 <header id="header" class="page-header">
     <div class="page-header-container">
         <a class="logo" href="<?php echo $this->getUrl('') ?>">
-            <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large" />
-            <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small" />
+            <?php if ($additionalLogoFileName): ?>
+                <img src="<?php echo $helperWaxDesign->getFilePath($additionalLogoFileName); ?>" alt="" class="large" />
+                <img src="<?php echo $helperWaxDesign->getFilePath($additionalLogoFileName); ?>" alt="" class="small" />
+            <?php else: ?>
+                <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large" />
+                <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small" />
+            <?php endif; ?>
         </a>
 
         <?php // In order for the language switcher to display next to logo on smaller viewports, it will be moved here.
